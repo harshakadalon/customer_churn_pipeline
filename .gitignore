@@ -1,1 +1,2 @@
 data/raw/parquet/*
+!data/raw/parquet/*.dvc
