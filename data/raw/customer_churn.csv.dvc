@@ -1,6 +1,0 @@
-outs:
-- md5: b6584ceff8d8ddc988dbe0970aec537e
-  size: 622271
-  isexec: true
-  hash: md5
-  path: customer_churn.csv
