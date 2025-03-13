@@ -12,3 +12,7 @@
 2025-03-10 17:01:10,466 - INFO - 📂 File successfully stored as Parquet: data/raw/parquet/2025-03-10/customer_churn_2025-03-10_17-01.parquet
 2025-03-12 20:48:01,196 - INFO - ✅ Successfully read 10000 records from data/raw/customer_churn.csv
 2025-03-12 20:48:01,342 - INFO - 📂 File successfully stored as Parquet: data/raw/parquet/2025-03-12/customer_churn_2025-03-12_20-48.parquet
+2025-03-13 20:50:25,477 - INFO - ✅ Successfully read 10000 records from data/raw/customer_churn.csv
+2025-03-13 20:50:25,647 - INFO - 📂 File successfully stored as Parquet: data/raw/parquet/2025-03-13/customer_churn_2025-03-13_20-50.parquet
+2025-03-13 20:53:07,869 - INFO - ✅ Successfully read 10000 records from data/processed/customer_churn_cleaned.csv
+2025-03-13 20:53:07,974 - INFO - 📂 File successfully stored as Parquet: data/raw/parquet/2025-03-13/customer_churn_2025-03-13_20-53.parquet

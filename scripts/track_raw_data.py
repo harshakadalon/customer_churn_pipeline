@@ -1,46 +1,53 @@
 import os
 import subprocess
+import logging
 
-# ✅ Define Paths
-DVC_REMOTE = "myremote"  # Ensure this matches your DVC remote name
-DATASET_DIR = "data/raw/parquet/"  # Updated path to match your storage structure
-DVC_STORAGE_PATH = "/mnt/data/dvc-storage"  # Update if different
+# ✅ Configure logging
+LOG_FILE = "logs/track_data.log"
+os.makedirs("logs", exist_ok=True)
+logging.basicConfig(filename=LOG_FILE, level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
-# ✅ Ensure necessary directories exist
-os.makedirs(DATASET_DIR, exist_ok=True)
+# ✅ Define the base data directory
+DATA_DIR = "data/"
 
-# ✅ Function to track raw data
-def track_data():
-    """Adds the latest dataset from data/raw/parquet/ to DVC and Git."""
-    
-    print(f"🔍 Checking for new dataset versions in {DATASET_DIR}...")
-    
-    # Get the latest dataset folder
-    subdirs = sorted(os.listdir(DATASET_DIR), reverse=True)
-    if not subdirs:
-        print("❌ No dataset folders found in 'data/raw/parquet/'. Exiting...")
-        return
+def get_all_subdirectories():
+    """Finds all subdirectories under data/."""
+    if not os.path.exists(DATA_DIR):
+        logging.error(f"❌ Data directory {DATA_DIR} not found.")
+        return []
 
-    latest_folder = os.path.join(DATASET_DIR, subdirs[0])  # Latest timestamped folder
-    print(f"✅ Found latest dataset version: {latest_folder}")
+    subdirs = []
+    for root, dirs, _ in os.walk(DATA_DIR):
+        for dir_name in dirs:
+            folder_path = os.path.join(root, dir_name)
+            logging.info(f"📂 Found dataset folder: {folder_path}")
+            yield folder_path
 
-    # Check if the latest dataset is already tracked
-    dvc_file = f"{latest_folder}.dvc"
-    if os.path.exists(dvc_file):
-        print(f"🔄 Latest dataset version '{latest_folder}' is already tracked by DVC.")
+def run_command(command):
+    """Executes a shell command and handles errors."""
+    try:
+        result = subprocess.run(command, shell=True, check=True, text=True, capture_output=True)
+        logging.info(f"✅ Command succeeded: {command}")
+        print(result.stdout.strip())  # Display output
+        return result.stdout.strip()
+    except subprocess.CalledProcessError as e:
+        logging.error(f"❌ Command failed: {command}\nError: {e.stderr}")
+        print(f"❌ Error: {e.stderr}")
+        return None
+
+def track_all_data():
+    """Tracks all dataset folders under 'data/' with DVC (no Git push)."""
+    tracked = False
+    for folder in get_all_subdirectories():
+        run_command(f"dvc add {folder}")
+        tracked = True
+
+    if tracked:
+        logging.info("🚀 All dataset folders tracked with DVC (no commit/push).")
+        print("🚀 All dataset folders tracked with DVC (no commit/push).")
     else:
-        print(f"📂 Adding {latest_folder} to DVC...")
-        os.system(f"dvc add {latest_folder}")
-        os.system(f"git add {latest_folder}.dvc .gitignore")
-        os.system("git commit -m 'Track latest dataset version'")
-
-    print("🚀 Committing and pushing latest version to Git and DVC remote storage...")
-    os.system("dvc commit")
-    os.system("git commit -m 'Updated dataset version'")
-    os.system("git push origin main")
-    os.system("dvc push")
-
-    print("✅ Dataset versioning completed successfully.")
+        logging.info("❌ No new dataset folders to track.")
+        print("❌ No new dataset folders to track.")
 
 if __name__ == "__main__":
-    track_data()
+    track_all_data()

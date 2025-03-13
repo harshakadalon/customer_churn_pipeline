@@ -1,0 +1,12 @@
+2025-03-13 20:35:04,495 - INFO - 🔍 Checking for new dataset versions in DVC...
+2025-03-13 20:35:04,500 - INFO - ✅ Found latest dataset version: data/raw/parquet/2025-03-12
+2025-03-13 20:35:07,417 - ERROR - ❌ Error during data tracking: Command '['dvc', 'add', 'data/raw/parquet/2025-03-12']' returned non-zero exit status 1.
+2025-03-13 20:42:15,043 - INFO - 🔍 Checking for new dataset versions in DVC...
+2025-03-13 20:42:15,043 - INFO - ✅ Found latest dataset version: data/raw/parquet/2025-03-12
+2025-03-13 20:42:19,052 - ERROR - ❌ Error during data tracking: Command '['git', 'commit', '-m', 'Tracked new dataset version data/raw/parquet/2025-03-12']' returned non-zero exit status 1.
+2025-03-13 20:46:25,147 - INFO - ✅ Found latest dataset version: 2025-03-12
+2025-03-13 20:46:28,014 - INFO - ✅ Command succeeded: dvc add data/raw/parquet/2025-03-12
+2025-03-13 20:46:28,014 - INFO - 🚀 Dataset tracking completed (no commit/push).
+2025-03-13 21:02:13,830 - INFO - ✅ Found latest dataset version: 2025-03-13
+2025-03-13 21:02:17,677 - INFO - ✅ Command succeeded: dvc add data/raw/parquet/2025-03-13
+2025-03-13 21:02:17,677 - INFO - 🚀 Dataset tracking completed (no commit/push).

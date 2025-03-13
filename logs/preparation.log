@@ -24,3 +24,6 @@
 2025-03-12 21:00:06,909 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-12/customer_churn_prepared.parquet
 2025-03-12 21:00:07,035 - INFO - ✅ Data Preparation Completed Successfully.
 2025-03-12 21:00:07,071 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-12/customer_churn_prepared.parquet
+2025-03-13 20:56:17,808 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-13/customer_churn_2025-03-13_20-53.parquet
+2025-03-13 20:56:18,048 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-13 20:56:18,128 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-13/customer_churn_prepared.parquet

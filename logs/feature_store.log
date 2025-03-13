@@ -5,3 +5,7 @@
 2025-03-12 21:34:55,771 - INFO - ✅ Feature Store & Metadata Tables Created Successfully.
 2025-03-12 21:35:20,460 - INFO - ✅ Features successfully stored in SQL Server.
 2025-03-12 21:35:20,544 - INFO - ✅ Feature metadata stored successfully.
+2025-03-13 20:58:59,918 - INFO - ✅ Loading transformed data from: data/transformed/2025-03-13_transformed.parquet
+2025-03-13 20:59:00,215 - INFO - ✅ Feature Store & Metadata Tables Created Successfully.
+2025-03-13 20:59:14,732 - INFO - ✅ Features successfully stored in SQL Server.
+2025-03-13 20:59:14,810 - INFO - ✅ Feature metadata stored successfully.

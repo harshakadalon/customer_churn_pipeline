@@ -71,3 +71,7 @@
 2025-03-12 21:01:52,505 - INFO - ✅ Data Transformation Completed Successfully.
 2025-03-12 21:01:52,553 - INFO - 📂 Transformed Data Saved: data/transformed/2025-03-12_transformed.parquet
 2025-03-12 21:02:07,767 - INFO - ✅ Data successfully stored in SQL Server.
+2025-03-13 20:57:44,680 - INFO - ✅ Loading prepared Parquet file: data/raw/parquet/2025-03-13/customer_churn_prepared.parquet
+2025-03-13 20:57:44,844 - INFO - ✅ Data Transformation Completed Successfully.
+2025-03-13 20:57:44,919 - INFO - 📂 Transformed Data Saved: data/transformed/2025-03-13_transformed.parquet
+2025-03-13 20:58:02,025 - INFO - ✅ Data successfully stored in SQL Server.

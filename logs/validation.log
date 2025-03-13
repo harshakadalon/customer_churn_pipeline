@@ -7,3 +7,5 @@
 2025-03-10 17:01:27,362 - INFO - 📊 Data Quality Report saved: reports/data_quality_report.csv
 2025-03-12 20:49:07,338 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-12/customer_churn_2025-03-12_20-48.parquet
 2025-03-12 20:49:07,476 - INFO - 📊 Data Quality Report saved: reports/data_quality_report.csv
+2025-03-13 20:55:06,543 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-13/customer_churn_2025-03-13_20-53.parquet
+2025-03-13 20:55:06,831 - INFO - 📊 Data Quality Report saved: reports/data_quality_report.csv

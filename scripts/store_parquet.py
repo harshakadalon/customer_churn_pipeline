@@ -11,7 +11,7 @@ logging.basicConfig(
 )
 
 # Define storage paths
-RAW_CSV_PATH = "data/raw/customer_churn.csv"  # Input CSV file
+RAW_CSV_PATH = "data/processed/customer_churn_cleaned.csv"  # Input CSV file
 BASE_DIR = "data/raw/parquet/"  # Parquet storage location
 TIMESTAMP_DIR = f"{BASE_DIR}{datetime.now().strftime('%Y-%m-%d')}/"  # Date-based partition
 timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
