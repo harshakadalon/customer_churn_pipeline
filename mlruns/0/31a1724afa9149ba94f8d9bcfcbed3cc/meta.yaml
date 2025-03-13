@@ -1,0 +1,15 @@
+artifact_uri: file:///home/harsha/customer_churn_pipeline/mlruns/0/31a1724afa9149ba94f8d9bcfcbed3cc/artifacts
+end_time: 1741820766761
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 31a1724afa9149ba94f8d9bcfcbed3cc
+run_name: big-loon-852
+run_uuid: 31a1724afa9149ba94f8d9bcfcbed3cc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741820753665
+status: 3
+tags: []
+user_id: harsha

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/harsha/customer_churn_pipeline/mlruns/0/4d27a20f1904461581f7b6c14821c2de/artifacts
+end_time: 1741819052177
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4d27a20f1904461581f7b6c14821c2de
+run_name: masked-ray-689
+run_uuid: 4d27a20f1904461581f7b6c14821c2de
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741819039007
+status: 3
+tags: []
+user_id: harsha

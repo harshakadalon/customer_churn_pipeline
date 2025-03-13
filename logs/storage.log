@@ -1,0 +1,14 @@
+2025-03-08 21:50:22,660 - ERROR - ❌ CSV file not found: data/raw/customer_churn_dataset.csv
+2025-03-08 21:51:53,226 - ERROR - ❌ CSV file not found: data/raw/customer_churn_dataset.csv
+2025-03-08 21:52:35,149 - INFO - ✅ Successfully read 10000 records from data/raw/customer_churn.csv
+2025-03-08 21:52:35,325 - INFO - 📂 File successfully stored as Parquet: data/raw/parquet/2025-03-08/customer_churn_2025-03-08_21-52.parquet
+2025-03-08 21:54:23,172 - ERROR - ❌ CSV file not found: data/raw/customer_churn_dataset.csv
+2025-03-08 21:55:32,577 - ERROR - ❌ CSV file not found: data/raw/customer_churn_dataset.csv
+2025-03-08 21:55:48,302 - INFO - ✅ Successfully read 10000 records from data/raw/customer_churn.csv
+2025-03-08 21:55:48,348 - INFO - 📂 File successfully stored as Parquet: data/raw/parquet/2025-03-08/customer_churn_2025-03-08_21-55.parquet
+2025-03-08 22:13:54,453 - INFO - ✅ Successfully read 10000 records from data/raw/customer_churn.csv
+2025-03-08 22:13:54,509 - INFO - 📂 File successfully stored as Parquet: data/raw/parquet/2025-03-08/customer_churn_2025-03-08_22-13.parquet
+2025-03-10 17:01:09,424 - INFO - ✅ Successfully read 10000 records from data/raw/customer_churn.csv
+2025-03-10 17:01:10,466 - INFO - 📂 File successfully stored as Parquet: data/raw/parquet/2025-03-10/customer_churn_2025-03-10_17-01.parquet
+2025-03-12 20:48:01,196 - INFO - ✅ Successfully read 10000 records from data/raw/customer_churn.csv
+2025-03-12 20:48:01,342 - INFO - 📂 File successfully stored as Parquet: data/raw/parquet/2025-03-12/customer_churn_2025-03-12_20-48.parquet

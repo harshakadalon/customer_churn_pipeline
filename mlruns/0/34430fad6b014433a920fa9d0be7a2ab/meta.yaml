@@ -1,0 +1,15 @@
+artifact_uri: file:///home/harsha/customer_churn_pipeline/mlruns/0/34430fad6b014433a920fa9d0be7a2ab/artifacts
+end_time: 1741819038973
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 34430fad6b014433a920fa9d0be7a2ab
+run_name: nervous-calf-962
+run_uuid: 34430fad6b014433a920fa9d0be7a2ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741819027257
+status: 3
+tags: []
+user_id: harsha

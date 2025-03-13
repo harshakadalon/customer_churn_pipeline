@@ -1,0 +1,15 @@
+artifact_uri: file:///home/harsha/customer_churn_pipeline/mlruns/0/8ef3b4ef6ffe44d797f38858c8f1628d/artifacts
+end_time: 1741818868695
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8ef3b4ef6ffe44d797f38858c8f1628d
+run_name: entertaining-roo-631
+run_uuid: 8ef3b4ef6ffe44d797f38858c8f1628d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741818853544
+status: 3
+tags: []
+user_id: harsha

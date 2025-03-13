@@ -1,0 +1,24 @@
+{
+  "inputs": [
+    {
+      "SeniorCitizen": 1.0,
+      "tenure": 0.8309859154929577,
+      "gender_Male": "0",
+      "Partner_Yes": "0",
+      "Dependents_Yes": "0",
+      "PhoneService_Yes": "1",
+      "MultipleLines_No phone service": "0",
+      "MultipleLines_Yes": "1",
+      "InternetService_Fiber optic": "1",
+      "InternetService_No": "0",
+      "OnlineSecurity_No internet service": "0",
+      "OnlineSecurity_Yes": "0",
+      "OnlineBackup_No internet service": "1",
+      "OnlineBackup_Yes": "0",
+      "last_purchase_recency": 0.0923076923076922,
+      "engagement_score": 0.75,
+      "total_services_used": 0.75,
+      "high_support_calls": 1.0
+    }
+  ]
+}

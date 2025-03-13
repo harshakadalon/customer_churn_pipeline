@@ -1,0 +1,73 @@
+2025-03-11 21:05:47,317 - INFO - ✅ Loading prepared Parquet file: data/raw/parquet/2025-03-10/customer_churn_prepared.parquet
+2025-03-11 21:41:58,722 - INFO - ✅ Loading prepared Parquet file: data/raw/parquet/2025-03-10/customer_churn_prepared.parquet
+2025-03-11 21:49:23,947 - INFO - ✅ Loading prepared Parquet file: data/raw/parquet/2025-03-10/customer_churn_prepared.parquet
+2025-03-11 21:49:24,007 - INFO - ✅ Data Transformation Completed Successfully.
+2025-03-11 21:49:24,046 - INFO - 📂 Transformed Data Saved: data/transformed/2025-03-10_transformed.parquet
+2025-03-11 21:49:33,345 - INFO - ✅ Data successfully stored in SQL Server.
+2025-03-12 18:36:58,512 - INFO - ✅ Loading prepared Parquet file: data/raw/parquet/2025-03-10/customer_churn_prepared.parquet
+2025-03-12 18:36:59,271 - INFO - ✅ Data Transformation Completed Successfully.
+2025-03-12 18:36:59,373 - INFO - 📂 Transformed Data Saved: data/transformed/2025-03-10_transformed.parquet
+2025-03-12 18:37:18,243 - INFO - ✅ Data successfully stored in SQL Server.
+2025-03-12 20:12:28,735 - INFO - ✅ Loading prepared Parquet file: data/raw/parquet/2025-03-10/customer_churn_prepared.parquet
+2025-03-12 20:12:29,023 - INFO - ✅ Data Transformation Completed Successfully.
+2025-03-12 20:12:29,112 - INFO - 📂 Transformed Data Saved: data/transformed/2025-03-10_transformed.parquet
+2025-03-12 20:13:44,625 - INFO - ✅ Loading prepared Parquet file: data/raw/parquet/2025-03-10/customer_churn_prepared.parquet
+2025-03-12 20:13:44,765 - INFO - ✅ Data Transformation Completed Successfully.
+2025-03-12 20:13:44,815 - INFO - 📂 Transformed Data Saved: data/transformed/2025-03-10_transformed.parquet
+2025-03-12 20:14:07,750 - INFO - ✅ Data successfully stored in SQL Server.
+2025-03-12 20:17:51,085 - INFO - ✅ Loading prepared Parquet file: data/raw/parquet/2025-03-10/customer_churn_prepared.parquet
+2025-03-12 20:17:55,524 - INFO - ✅ Data Transformation Completed Successfully.
+2025-03-12 20:17:55,600 - INFO - 📂 Transformed Data Saved: data/transformed/2025-03-10_transformed.parquet
+2025-03-12 20:18:10,745 - INFO - ✅ Data successfully stored in SQL Server.
+2025-03-12 20:22:40,316 - INFO - ✅ Loading prepared Parquet file: data/raw/parquet/2025-03-10/customer_churn_prepared.parquet
+2025-03-12 20:22:40,529 - INFO - ✅ Data Transformation Completed Successfully.
+2025-03-12 20:22:40,641 - INFO - 📂 Transformed Data Saved: data/transformed/2025-03-10_transformed.parquet
+2025-03-12 20:22:59,991 - INFO - ✅ Loading prepared Parquet file: data/raw/parquet/2025-03-10/customer_churn_prepared.parquet
+2025-03-12 20:23:00,143 - INFO - ✅ Data Transformation Completed Successfully.
+2025-03-12 20:23:00,188 - INFO - 📂 Transformed Data Saved: data/transformed/2025-03-10_transformed.parquet
+2025-03-12 20:23:14,800 - INFO - ✅ Data successfully stored in SQL Server.
+2025-03-12 20:24:11,674 - INFO - ✅ Loading prepared Parquet file: data/raw/parquet/2025-03-10/customer_churn_prepared.parquet
+2025-03-12 20:24:59,714 - INFO - ✅ Loading prepared Parquet file: data/raw/parquet/2025-03-10/customer_churn_prepared.parquet
+2025-03-12 20:24:59,862 - INFO - ✅ Data Transformation Completed Successfully.
+2025-03-12 20:24:59,936 - INFO - 📂 Transformed Data Saved: data/transformed/2025-03-10_transformed.parquet
+2025-03-12 20:25:16,616 - INFO - ✅ Data successfully stored in SQL Server.
+2025-03-12 20:28:56,977 - INFO - ✅ Loading prepared Parquet file: data/raw/parquet/2025-03-10/customer_churn_prepared.parquet
+2025-03-12 20:28:57,140 - INFO - ✅ Data Transformation Completed Successfully.
+2025-03-12 20:28:57,198 - INFO - 📂 Transformed Data Saved: data/transformed/2025-03-10_transformed.parquet
+2025-03-12 20:29:16,409 - INFO - ✅ Data successfully stored in SQL Server.
+2025-03-12 20:35:48,564 - INFO - ✅ Loading prepared Parquet file: data/raw/parquet/2025-03-10/customer_churn_prepared.parquet
+2025-03-12 20:35:48,684 - INFO - ✅ Data Transformation Completed Successfully.
+2025-03-12 20:35:48,752 - INFO - 📂 Transformed Data Saved: data/transformed/2025-03-10_transformed.parquet
+2025-03-12 20:36:06,428 - INFO - ✅ Data successfully stored in SQL Server.
+2025-03-12 20:40:20,880 - INFO - ✅ Loading prepared Parquet file: data/raw/parquet/2025-03-10/customer_churn_prepared.parquet
+2025-03-12 20:40:21,004 - INFO - ✅ Data Transformation Completed Successfully.
+2025-03-12 20:40:21,228 - INFO - 📂 Transformed Data Saved: data/transformed/2025-03-10_transformed.parquet
+2025-03-12 20:40:38,334 - INFO - ✅ Data successfully stored in SQL Server.
+2025-03-12 20:41:30,734 - INFO - ✅ Loading prepared Parquet file: data/raw/parquet/2025-03-10/customer_churn_prepared.parquet
+2025-03-12 20:41:30,890 - INFO - ✅ Data Transformation Completed Successfully.
+2025-03-12 20:41:30,935 - INFO - 📂 Transformed Data Saved: data/transformed/2025-03-10_transformed.parquet
+2025-03-12 20:41:46,751 - INFO - ✅ Data successfully stored in SQL Server.
+2025-03-12 20:44:31,738 - INFO - ✅ Loading prepared Parquet file: data/raw/parquet/2025-03-10/customer_churn_prepared.parquet
+2025-03-12 20:44:31,904 - INFO - ✅ Data Transformation Completed Successfully.
+2025-03-12 20:44:32,034 - INFO - 📂 Transformed Data Saved: data/transformed/2025-03-10_transformed.parquet
+2025-03-12 20:44:48,029 - INFO - ✅ Data successfully stored in SQL Server.
+2025-03-12 20:49:43,461 - INFO - ✅ Loading prepared Parquet file: data/raw/parquet/2025-03-12/customer_churn_prepared.parquet
+2025-03-12 20:49:43,574 - INFO - ✅ Data Transformation Completed Successfully.
+2025-03-12 20:49:43,628 - INFO - 📂 Transformed Data Saved: data/transformed/2025-03-12_transformed.parquet
+2025-03-12 20:50:00,427 - INFO - ✅ Data successfully stored in SQL Server.
+2025-03-12 20:54:05,172 - INFO - ✅ Loading prepared Parquet file: data/raw/parquet/2025-03-12/customer_churn_prepared.parquet
+2025-03-12 20:54:05,294 - INFO - ✅ Data Transformation Completed Successfully.
+2025-03-12 20:54:05,348 - INFO - 📂 Transformed Data Saved: data/transformed/2025-03-12_transformed.parquet
+2025-03-12 20:54:21,234 - INFO - ✅ Data successfully stored in SQL Server.
+2025-03-12 20:56:48,077 - INFO - ✅ Loading prepared Parquet file: data/raw/parquet/2025-03-12/customer_churn_prepared.parquet
+2025-03-12 20:56:48,278 - INFO - ✅ Data Transformation Completed Successfully.
+2025-03-12 20:56:48,382 - INFO - 📂 Transformed Data Saved: data/transformed/2025-03-12_transformed.parquet
+2025-03-12 20:57:02,310 - INFO - ✅ Data successfully stored in SQL Server.
+2025-03-12 21:00:12,618 - INFO - ✅ Loading prepared Parquet file: data/raw/parquet/2025-03-12/customer_churn_prepared.parquet
+2025-03-12 21:00:12,730 - INFO - ✅ Data Transformation Completed Successfully.
+2025-03-12 21:00:12,787 - INFO - 📂 Transformed Data Saved: data/transformed/2025-03-12_transformed.parquet
+2025-03-12 21:00:27,979 - INFO - ✅ Data successfully stored in SQL Server.
+2025-03-12 21:01:52,385 - INFO - ✅ Loading prepared Parquet file: data/raw/parquet/2025-03-12/customer_churn_prepared.parquet
+2025-03-12 21:01:52,505 - INFO - ✅ Data Transformation Completed Successfully.
+2025-03-12 21:01:52,553 - INFO - 📂 Transformed Data Saved: data/transformed/2025-03-12_transformed.parquet
+2025-03-12 21:02:07,767 - INFO - ✅ Data successfully stored in SQL Server.

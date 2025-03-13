@@ -1,0 +1,15 @@
+artifact_uri: file:///home/harsha/customer_churn_pipeline/mlruns/0/05afd6e40a1c437c9a0d53f230f32645/artifacts
+end_time: 1741820564734
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 05afd6e40a1c437c9a0d53f230f32645
+run_name: stylish-grouse-500
+run_uuid: 05afd6e40a1c437c9a0d53f230f32645
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741820552413
+status: 3
+tags: []
+user_id: harsha

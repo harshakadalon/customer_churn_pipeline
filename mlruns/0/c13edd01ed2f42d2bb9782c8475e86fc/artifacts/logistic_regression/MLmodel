@@ -1,0 +1,44 @@
+artifact_path: logistic_regression
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.21
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 2.20.3
+model_size_bytes: 2507
+model_uuid: bf4007c10004448f9f3a43cfd62eb30e
+run_id: c13edd01ed2f42d2bb9782c8475e86fc
+saved_input_example_info:
+  artifact_path: input_example.json
+  serving_input_path: serving_input_example.json
+  type: json_object
+signature:
+  inputs: '[{"type": "double", "name": "SeniorCitizen", "required": true}, {"type":
+    "double", "name": "tenure", "required": true}, {"type": "string", "name": "gender_Male",
+    "required": true}, {"type": "string", "name": "Partner_Yes", "required": true},
+    {"type": "string", "name": "Dependents_Yes", "required": true}, {"type": "string",
+    "name": "PhoneService_Yes", "required": true}, {"type": "string", "name": "MultipleLines_No
+    phone service", "required": true}, {"type": "string", "name": "MultipleLines_Yes",
+    "required": true}, {"type": "string", "name": "InternetService_Fiber optic", "required":
+    true}, {"type": "string", "name": "InternetService_No", "required": true}, {"type":
+    "string", "name": "OnlineSecurity_No internet service", "required": true}, {"type":
+    "string", "name": "OnlineSecurity_Yes", "required": true}, {"type": "string",
+    "name": "OnlineBackup_No internet service", "required": true}, {"type": "string",
+    "name": "OnlineBackup_Yes", "required": true}, {"type": "double", "name": "last_purchase_recency",
+    "required": true}, {"type": "double", "name": "engagement_score", "required":
+    true}, {"type": "double", "name": "total_services_used", "required": true}, {"type":
+    "double", "name": "high_support_calls", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-03-12 23:07:14.398194'

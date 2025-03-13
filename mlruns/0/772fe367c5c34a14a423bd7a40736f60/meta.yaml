@@ -1,0 +1,15 @@
+artifact_uri: file:///home/harsha/customer_churn_pipeline/mlruns/0/772fe367c5c34a14a423bd7a40736f60/artifacts
+end_time: 1741819304108
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 772fe367c5c34a14a423bd7a40736f60
+run_name: intrigued-cub-625
+run_uuid: 772fe367c5c34a14a423bd7a40736f60
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741819283815
+status: 3
+tags: []
+user_id: harsha

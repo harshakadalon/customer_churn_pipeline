@@ -1,0 +1,26 @@
+2025-03-10 20:01:54,494 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-10/customer_churn_2025-03-10_17-01.parquet
+2025-03-10 20:01:54,958 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-10 20:01:55,017 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-10/customer_churn_prepared.parquet
+2025-03-12 20:31:11,689 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-10/customer_churn_prepared.parquet
+2025-03-12 20:32:23,218 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-10/customer_churn_prepared.parquet
+2025-03-12 20:35:33,586 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-10/customer_churn_prepared.parquet
+2025-03-12 20:35:33,812 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-12 20:35:33,853 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-10/customer_churn_prepared.parquet
+2025-03-12 20:38:13,610 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-10/customer_churn_prepared.parquet
+2025-03-12 20:38:13,758 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-12 20:38:13,801 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-10/customer_churn_prepared.parquet
+2025-03-12 20:43:57,085 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-10/customer_churn_prepared.parquet
+2025-03-12 20:43:57,240 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-12 20:43:57,283 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-10/customer_churn_prepared.parquet
+2025-03-12 20:49:30,748 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-12/customer_churn_2025-03-12_20-48.parquet
+2025-03-12 20:49:30,928 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-12 20:49:30,972 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-12/customer_churn_prepared.parquet
+2025-03-12 20:53:57,146 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-12/customer_churn_prepared.parquet
+2025-03-12 20:53:57,296 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-12 20:53:57,329 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-12/customer_churn_prepared.parquet
+2025-03-12 20:56:36,213 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-12/customer_churn_prepared.parquet
+2025-03-12 20:56:36,361 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-12 20:56:36,413 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-12/customer_churn_prepared.parquet
+2025-03-12 21:00:06,909 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-12/customer_churn_prepared.parquet
+2025-03-12 21:00:07,035 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-12 21:00:07,071 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-12/customer_churn_prepared.parquet
