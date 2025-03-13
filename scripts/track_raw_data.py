@@ -1,59 +1,46 @@
 import os
 import subprocess
-import logging
 
-# ✅ Configure logging
-LOG_DIR = "logs"
-os.makedirs(LOG_DIR, exist_ok=True)
-logging.basicConfig(
-    filename=os.path.join(LOG_DIR, "dvc_tracking.log"),
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-)
+# ✅ Define Paths
+DVC_REMOTE = "myremote"  # Ensure this matches your DVC remote name
+DATASET_DIR = "data/raw/parquet/"  # Updated path to match your storage structure
+DVC_STORAGE_PATH = "/mnt/data/dvc-storage"  # Update if different
 
-# ✅ Define Base Paths
-RAW_DATA_DIR = "data/raw/parquet/"
-TRANSFORMED_DATA_DIR = "data/transformed/"
+# ✅ Ensure necessary directories exist
+os.makedirs(DATASET_DIR, exist_ok=True)
 
-def get_latest_parquet_folder(base_dir):
-    """Finds the latest timestamped folder inside base_dir."""
-    if not os.path.exists(base_dir):
-        raise FileNotFoundError(f"❌ Directory not found: {base_dir}")
-
-    subdirs = sorted(os.listdir(base_dir), reverse=True)
-    for subdir in subdirs:
-        folder_path = os.path.join(base_dir, subdir)
-        if os.path.isdir(folder_path):
-            return folder_path  # Return the latest timestamped folder
-
-    raise FileNotFoundError(f"❌ No timestamped folders found in {base_dir}")
-
+# ✅ Function to track raw data
 def track_data():
-    """Tracks changes in raw and transformed datasets using DVC."""
-    try:
-        # Get latest parquet folders
-        latest_raw_folder = get_latest_parquet_folder(RAW_DATA_DIR)
-        latest_transformed_folder = get_latest_parquet_folder(TRANSFORMED_DATA_DIR)
+    """Adds the latest dataset from data/raw/parquet/ to DVC and Git."""
+    
+    print(f"🔍 Checking for new dataset versions in {DATASET_DIR}...")
+    
+    # Get the latest dataset folder
+    subdirs = sorted(os.listdir(DATASET_DIR), reverse=True)
+    if not subdirs:
+        print("❌ No dataset folders found in 'data/raw/parquet/'. Exiting...")
+        return
 
-        # ✅ Track latest Parquet files in their respective folders
-        subprocess.run(["dvc", "add", latest_raw_folder], check=True)
-        subprocess.run(["dvc", "add", latest_transformed_folder], check=True)
+    latest_folder = os.path.join(DATASET_DIR, subdirs[0])  # Latest timestamped folder
+    print(f"✅ Found latest dataset version: {latest_folder}")
 
-        # ✅ Add the DVC-tracked files to Git
-        subprocess.run(["git", "add", f"{latest_raw_folder}.dvc"], check=True)
-        subprocess.run(["git", "add", f"{latest_transformed_folder}.dvc"], check=True)
+    # Check if the latest dataset is already tracked
+    dvc_file = f"{latest_folder}.dvc"
+    if os.path.exists(dvc_file):
+        print(f"🔄 Latest dataset version '{latest_folder}' is already tracked by DVC.")
+    else:
+        print(f"📂 Adding {latest_folder} to DVC...")
+        os.system(f"dvc add {latest_folder}")
+        os.system(f"git add {latest_folder}.dvc .gitignore")
+        os.system("git commit -m 'Track latest dataset version'")
 
-        # ✅ Commit changes
-        subprocess.run(["git", "commit", "-m", "Updated dataset version"], check=True)
-        subprocess.run(["dvc", "push"], check=True)  # Push data to remote storage
-        subprocess.run(["git", "push"], check=True)  # Push metadata to GitHub
+    print("🚀 Committing and pushing latest version to Git and DVC remote storage...")
+    os.system("dvc commit")
+    os.system("git commit -m 'Updated dataset version'")
+    os.system("git push origin main")
+    os.system("dvc push")
 
-        logging.info("✅ Successfully tracked and pushed dataset changes using DVC.")
-        print("✅ Successfully tracked and pushed dataset changes using DVC.")
-
-    except subprocess.CalledProcessError as e:
-        logging.error(f"❌ DVC tracking failed: {str(e)}")
-        print(f"❌ DVC tracking failed: {str(e)}")
+    print("✅ Dataset versioning completed successfully.")
 
 if __name__ == "__main__":
     track_data()
