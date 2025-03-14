@@ -11,7 +11,7 @@ logging.basicConfig(
 )
 
 # Define paths
-PARQUET_DIR = "data/raw/parquet/"
+PARQUET_DIR = "data/processed/parquet/"
 REPORT_PATH = "reports/data_quality_report.csv"
 
 def get_latest_parquet():
