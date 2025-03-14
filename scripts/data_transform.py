@@ -15,7 +15,7 @@ logging.basicConfig(
 )
 
 # ✅ Define Paths
-PARQUET_DIR = "data/raw/parquet/"
+PARQUET_DIR = "data/processed/parquet/"
 TRANSFORMED_DIR = "data/transformed/"
 
 def get_latest_prepared_parquet():
@@ -46,6 +46,7 @@ def transform_data(df):
     # ✅ 2️⃣ Engagement Score (Sum of subscribed services → Already encoded as 0/1)
     service_cols = [col for col in df.columns if "OnlineSecurity" in col or "OnlineBackup" in col or "PhoneService" in col or "MultipleLines" in col]
     if service_cols:
+
         df["engagement_score"] = df[service_cols].sum(axis=1)  # Sum of binary 1s
         df["total_services_used"] = df[service_cols].sum(axis=1)  # Same logic
 

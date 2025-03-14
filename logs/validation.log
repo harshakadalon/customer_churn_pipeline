@@ -17,3 +17,13 @@
 2025-03-13 22:01:12,321 - INFO - 📊 Data Quality Report saved: reports/data_quality_report.csv
 2025-03-13 22:04:45,773 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-13/customer_churn_prepared.parquet
 2025-03-13 22:04:45,907 - INFO - 📊 Data Quality Report saved: reports/data_quality_report.csv
+2025-03-14 14:38:08,406 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-14/customer_churn_2025-03-14_14-38.parquet
+2025-03-14 14:38:10,543 - INFO - 📊 Data Quality Report saved: reports/data_quality_report.csv
+2025-03-14 14:38:27,974 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 14:38:28,587 - INFO - 📊 Data Quality Report saved: reports/data_quality_report.csv
+2025-03-14 15:22:56,453 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 15:22:56,630 - INFO - 📊 Data Quality Report saved: reports/data_quality_report.csv
+2025-03-14 15:34:19,494 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 15:34:19,779 - INFO - 📊 Data Quality Report saved: reports/data_quality_report.csv
+2025-03-14 15:35:07,947 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 15:35:08,165 - INFO - 📊 Data Quality Report saved: reports/data_quality_report.csv

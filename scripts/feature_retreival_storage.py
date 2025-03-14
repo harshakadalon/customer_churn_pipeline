@@ -32,13 +32,25 @@ def fetch_all_features():
 
     query = """
     SELECT 
-      [SeniorCitizen], [tenure], [Churn], [gender_Male], [Partner_Yes], 
-      [Dependents_Yes], [PhoneService_Yes], [MultipleLines_No phone service], 
-      [MultipleLines_Yes], [InternetService_Fiber optic], [InternetService_No], 
-      [OnlineSecurity_No internet service], [OnlineSecurity_Yes], 
-      [OnlineBackup_No internet service], [OnlineBackup_Yes], 
-      [last_purchase_recency], [engagement_score], [total_services_used], 
-      [high_support_calls] 
+      [gender]
+      ,[SeniorCitizen]
+      ,[Partner]
+      ,[Dependents]
+      ,[tenure]
+      ,[PhoneService]
+      ,[Churn]
+      ,[MultipleLines_No phone service]
+      ,[MultipleLines_Yes]
+      ,[InternetService_Fiber optic]
+      ,[InternetService_No]
+      ,[OnlineSecurity_No internet service]
+      ,[OnlineSecurity_Yes]
+      ,[OnlineBackup_No internet service]
+      ,[OnlineBackup_Yes]
+      ,[last_purchase_recency]
+      ,[engagement_score]
+      ,[total_services_used]
+      ,[high_support_calls]
     FROM FeatureStore ORDER BY CreatedAt DESC;
     """
 

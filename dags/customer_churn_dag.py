@@ -41,63 +41,56 @@ with DAG(
         op_args=['/home/harsha/customer_churn_pipeline/scripts/ingest_data.py']
     )
 
-    # Task 2: Process Data
-    process_task = PythonOperator(
-        task_id='process_data',
-        python_callable=run_script,
-        op_args=['/home/harsha/customer_churn_pipeline/scripts/process_data.py']
-    )
-
-    # Task 3: Store Data as Parquet
+    # Task 2: Store Data as Parquet
     store_parquet_task = PythonOperator(
         task_id='store_parquet',
         python_callable=run_script,
         op_args=['/home/harsha/customer_churn_pipeline/scripts/store_parquet.py']
     )
 
-    # Task 4: Validate Parquet Data
+    # Task 3: Validate Parquet Data
     validate_task = PythonOperator(
         task_id='validate_data',
         python_callable=run_script,
         op_args=['/home/harsha/customer_churn_pipeline/scripts/data_validation.py']
     )
 
-    # Task 5: Prepare Data
+    # Task 4: Prepare Data
     prepare_data_task = PythonOperator(
         task_id='prepare_data',
         python_callable=run_script,
         op_args=['/home/harsha/customer_churn_pipeline/scripts/data_preparation.py']
     )
 
-    # Task 6: Transform Data
+    # Task 5: Transform Data
     transform_data_task = PythonOperator(
         task_id='transform_data',
         python_callable=run_script,
         op_args=['/home/harsha/customer_churn_pipeline/scripts/data_transform.py']
     )
 
-    # Task 7: Feature store creation
+    # Task 6: Feature store creation
     feature_store_creation_task = PythonOperator(
         task_id='feature_store_creation',
         python_callable=run_script,
         op_args=['/home/harsha/customer_churn_pipeline/scripts/feature_store.py']
     )
 
-    # Task 8: Feature store retreival
+    # Task 7: Feature store retreival
     feature_retreival_storage_task = PythonOperator(
         task_id='feature_retreival_storage',
         python_callable=run_script,
         op_args=['/home/harsha/customer_churn_pipeline/scripts/feature_retreival_storage.py']
     )
 
-    # Task 9: Data Versioning
+    # Task 8: Data Versioning
     data_versioning_task = PythonOperator(
         task_id='data_versioning',
         python_callable=run_script,
         op_args=['/home/harsha/customer_churn_pipeline/scripts/data_versioning.py']
     )
 
-    # Task 10: Data Modeling
+    # Task 9: Data Modeling
     data_modeling_task = PythonOperator(
         task_id='data_modeling',
         python_callable=run_script,
@@ -106,4 +99,4 @@ with DAG(
 
 
     # Define Task Order (Dependency Flow)
-    ingest_task >> process_task >> store_parquet_task >> validate_task >> prepare_data_task >> transform_data_task >> feature_store_creation_task >> feature_retreival_storage_task >> data_versioning_task >> data_modeling_task
+    ingest_task >> store_parquet_task >> validate_task >> prepare_data_task >> transform_data_task >> feature_store_creation_task >> feature_retreival_storage_task >> data_versioning_task >> data_modeling_task

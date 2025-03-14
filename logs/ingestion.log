@@ -59,3 +59,52 @@
 2025-03-13 22:02:49,677 - INFO - ✅ Fetching new data...
 2025-03-13 22:02:49,715 - INFO - ✅ Successfully read 10000 records.
 2025-03-13 22:02:49,824 - INFO - 📂 File saved to data/processed/customer_churn_backup.csv
+2025-03-14 13:21:58,684 - INFO - ✅ Fetching new data...
+2025-03-14 13:21:58,760 - INFO - ✅ Successfully read 10000 records.
+2025-03-14 13:21:58,935 - INFO - 📂 File saved to data/processed/customer_churn_cleaned.csv
+2025-03-14 14:18:39,540 - INFO - ✅ Fetching new data...
+2025-03-14 14:18:38,619 - ERROR - ❌ Kaggle dataset download failed: Command 'kaggle datasets download -d username/dataset-name -p data/kaggle_downloads --unzip' returned non-zero exit status 1.
+2025-03-14 14:19:38,013 - INFO - ✅ Fetching new data...
+2025-03-14 14:19:40,198 - ERROR - ❌ Kaggle dataset download failed: Command 'kaggle datasets download -d samridhi350/customer_churn_2 -p data/kaggle_downloads --unzip' returned non-zero exit status 1.
+2025-03-14 14:33:00,184 - INFO - ✅ Fetching new data...
+2025-03-14 14:33:09,170 - INFO - ✅ Successfully downloaded Kaggle dataset.
+2025-03-14 14:33:09,568 - INFO - ✅ Successfully read 10000 records from primary source.
+2025-03-14 14:33:07,845 - INFO - ✅ Successfully read 112527 records from Kaggle dataset.
+2025-03-14 14:33:07,888 - INFO - ✅ Combined dataset now has 122527 records.
+2025-03-14 14:33:10,116 - INFO - 📂 File saved to data/processed/customer_churn_combined.csv
+2025-03-14 14:34:37,646 - INFO - ✅ Fetching new data...
+2025-03-14 14:34:41,253 - INFO - ✅ Successfully downloaded Kaggle dataset.
+2025-03-14 14:34:41,355 - INFO - ✅ Successfully read 10000 records from primary source.
+2025-03-14 14:34:41,886 - INFO - ✅ Successfully read 112527 records from Kaggle dataset.
+2025-03-14 14:34:41,898 - INFO - ✅ Combined dataset now has 122527 records.
+2025-03-14 14:34:44,100 - INFO - 📂 File saved to data/processed/customer_churn_processed.csv
+2025-03-14 14:35:02,847 - INFO - ✅ Fetching new data...
+2025-03-14 14:35:08,515 - INFO - ✅ Successfully downloaded Kaggle dataset.
+2025-03-14 14:35:08,658 - INFO - ✅ Successfully read 10000 records from primary source.
+2025-03-14 14:35:09,824 - INFO - ✅ Successfully read 112527 records from Kaggle dataset.
+2025-03-14 14:35:09,845 - INFO - ✅ Combined dataset now has 122527 records.
+2025-03-14 14:35:11,997 - INFO - 📂 File saved to data/processed/customer_churn_cleaned.csv
+2025-03-14 14:37:54,703 - INFO - ✅ Fetching new data...
+2025-03-14 14:38:01,440 - INFO - ✅ Successfully downloaded Kaggle dataset.
+2025-03-14 14:38:01,517 - INFO - ✅ Successfully read 10000 records from primary source.
+2025-03-14 14:38:02,438 - INFO - ✅ Successfully read 112527 records from Kaggle dataset.
+2025-03-14 14:38:02,460 - INFO - ✅ Combined dataset now has 122527 records.
+2025-03-14 14:38:04,615 - INFO - 📂 File saved to data/processed/customer_churn_cleaned.csv
+2025-03-14 15:33:51,575 - INFO - ✅ Fetching new data...
+2025-03-14 15:33:56,879 - INFO - ✅ Successfully downloaded Kaggle dataset.
+2025-03-14 15:33:56,947 - INFO - ✅ Successfully read 10000 records from primary source.
+2025-03-14 15:33:57,537 - INFO - ✅ Successfully read 112527 records from Kaggle dataset.
+2025-03-14 15:33:57,558 - INFO - ✅ Combined dataset now has 122527 records.
+2025-03-14 15:33:58,960 - INFO - 📂 File saved to data/processed/customer_churn_cleaned.csv
+2025-03-14 15:34:56,175 - INFO - ✅ Fetching new data...
+2025-03-14 15:35:02,374 - INFO - ✅ Successfully downloaded Kaggle dataset.
+2025-03-14 15:35:02,525 - INFO - ✅ Successfully read 10000 records from primary source.
+2025-03-14 15:35:03,369 - INFO - ✅ Successfully read 112527 records from Kaggle dataset.
+2025-03-14 15:35:03,379 - INFO - ✅ Combined dataset now has 122527 records.
+2025-03-14 15:35:04,708 - INFO - 📂 File saved to data/processed/customer_churn_cleaned.csv
+2025-03-14 16:49:26,343 - INFO - ✅ Fetching new data...
+2025-03-14 16:49:38,833 - INFO - ✅ Successfully downloaded Kaggle dataset.
+2025-03-14 16:49:39,088 - INFO - ✅ Successfully read 10000 records from primary source.
+2025-03-14 16:49:41,158 - INFO - ✅ Successfully read 112527 records from Kaggle dataset.
+2025-03-14 16:49:41,173 - INFO - ✅ Combined dataset now has 122527 records.
+2025-03-14 16:49:44,961 - INFO - 📂 File saved to data/processed/customer_churn_cleaned.csv

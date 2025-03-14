@@ -44,3 +44,167 @@
 2025-03-13 22:31:36,381 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-13/customer_churn_prepared.parquet
 2025-03-13 22:31:42,021 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
 2025-03-13 22:31:42,121 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 14:38:19,987 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-14/customer_churn_2025-03-14_14-38.parquet
+2025-03-14 14:38:20,826 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-14 14:38:21,045 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 14:48:21,858 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 14:48:22,260 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-14 14:48:22,486 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 14:52:09,335 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 14:52:10,149 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-14 14:52:10,339 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 14:58:07,644 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 14:58:07,974 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-14 14:58:08,167 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 14:58:41,212 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 14:58:41,930 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-14 14:58:42,162 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 14:58:45,477 - INFO - ✅ Visualizations generated successfully.
+2025-03-14 14:59:58,540 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 14:59:59,012 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-14 14:59:59,265 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 15:00:02,592 - INFO - ✅ Visualizations generated successfully.
+2025-03-14 15:06:26,795 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 15:06:27,114 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-14 15:06:27,240 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 15:06:27,591 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 15:06:27,752 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 15:06:28,212 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 15:06:28,397 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 15:06:29,064 - INFO - ✅ Visualizations generated successfully.
+2025-03-14 15:18:42,661 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 15:18:42,964 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-14 15:18:43,069 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 15:18:43,443 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 15:18:43,589 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 15:20:40,125 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 15:23:04,144 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 15:30:49,401 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 15:30:49,654 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-14 15:30:49,731 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 15:30:50,075 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 15:30:50,284 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 15:32:18,230 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 15:32:18,487 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-14 15:32:18,597 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 15:32:18,962 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 15:32:19,197 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 15:32:19,799 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 15:32:19,975 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 15:32:20,696 - INFO - ✅ Visualizations generated successfully.
+2025-03-14 15:34:41,255 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 15:34:41,672 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-14 15:34:41,874 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 15:34:42,765 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 15:34:42,927 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 15:34:43,431 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 15:34:43,687 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 15:34:45,247 - INFO - ✅ Visualizations generated successfully.
+2025-03-14 15:35:12,801 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 15:35:13,125 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-14 15:35:13,232 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 15:35:13,661 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 15:35:13,829 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 15:36:09,183 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 15:36:09,431 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-14 15:36:09,533 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 15:36:09,882 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 15:36:10,045 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 15:36:21,841 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 15:38:39,990 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 15:38:40,227 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-14 15:38:40,349 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 15:38:40,742 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 15:38:40,933 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 15:38:41,413 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 15:38:41,609 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 15:38:42,367 - INFO - ✅ Visualizations generated successfully.
+2025-03-14 16:00:19,721 - INFO - ✅ Loading latest Parquet file: data/processed/parquet/2025-03-14/customer_churn_2025-03-14_15-47.parquet
+2025-03-14 16:00:20,502 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-14 16:00:20,737 - INFO - 📂 Prepared Data Saved: data/processed/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 16:00:21,063 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:00:21,286 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:00:21,829 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:00:22,099 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:00:22,998 - INFO - ✅ Visualizations generated successfully.
+2025-03-14 16:00:52,391 - INFO - ✅ Loading latest Parquet file: data/processed/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 16:00:52,862 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-14 16:00:53,146 - INFO - 📂 Prepared Data Saved: data/processed/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 16:00:53,566 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:00:53,770 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:00:54,304 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:00:54,548 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:00:55,307 - INFO - ✅ Visualizations generated successfully.
+2025-03-14 16:01:02,697 - INFO - ✅ Loading latest Parquet file: data/processed/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 16:01:03,026 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-14 16:01:03,229 - INFO - 📂 Prepared Data Saved: data/processed/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 16:01:03,587 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:01:03,768 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:01:05,168 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:01:05,344 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:01:06,060 - INFO - ✅ Visualizations generated successfully.
+2025-03-14 16:17:12,388 - INFO - ✅ Loading latest Parquet file: data/processed/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 16:17:13,344 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-14 16:17:13,837 - INFO - 📂 Prepared Data Saved: data/processed/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 16:17:15,313 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:17:15,841 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:17:16,635 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:17:16,818 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:17:17,511 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:17:17,764 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:17:19,073 - INFO - ✅ Visualizations generated successfully.
+2025-03-14 16:35:31,807 - INFO - ✅ Loading latest Parquet file: data/processed/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 16:35:32,210 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-14 16:35:32,348 - INFO - 📂 Prepared Data Saved: data/processed/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 16:35:32,808 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:35:33,049 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:35:34,069 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:35:34,332 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:35:35,322 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:35:35,520 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:35:36,871 - INFO - ✅ Visualizations generated successfully.
+2025-03-14 16:46:26,810 - INFO - ✅ Loading latest Parquet file: data/processed/parquet/customer_churn_prepared.parquet
+2025-03-14 16:50:52,285 - INFO - ✅ Loading latest Parquet file: data/processed/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 16:50:53,047 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-14 16:50:54,381 - INFO - 📂 Prepared Data Saved: data/processed/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 16:50:55,460 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:50:55,732 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:50:56,805 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:50:57,068 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:50:57,720 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:50:57,962 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:50:59,595 - INFO - ✅ Visualizations generated successfully.
+2025-03-14 16:53:26,241 - INFO - ✅ Loading latest Parquet file: data/processed/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 16:53:31,670 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-14 16:53:32,452 - INFO - 📂 Prepared Data Saved: data/processed/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 16:53:36,578 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:53:37,224 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:53:41,590 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:53:42,606 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:55:59,779 - INFO - ✅ Loading latest Parquet file: data/processed/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 16:56:00,802 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-14 16:56:01,039 - INFO - 📂 Prepared Data Saved: data/processed/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 16:56:01,764 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:56:02,116 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:56:03,588 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:56:04,252 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:56:52,404 - INFO - ✅ Loading latest Parquet file: data/processed/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 16:56:52,932 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-14 16:56:53,118 - INFO - 📂 Prepared Data Saved: data/processed/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 16:56:53,518 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:56:53,767 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:56:54,814 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:56:55,173 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:58:01,336 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:58:03,201 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:58:07,622 - INFO - ✅ Visualizations generated successfully.
+2025-03-14 16:58:36,591 - INFO - ✅ Loading latest Parquet file: data/processed/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 16:58:37,634 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-14 16:58:37,953 - INFO - 📂 Prepared Data Saved: data/processed/parquet/2025-03-14/customer_churn_prepared.parquet
+2025-03-14 16:58:38,770 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:58:39,105 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:58:40,086 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:58:40,331 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:59:43,663 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:59:44,031 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 16:59:43,968 - INFO - ✅ Visualizations generated successfully.

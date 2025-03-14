@@ -1,0 +1,15 @@
+artifact_uri: file:///home/harsha/customer_churn_pipeline/mlruns/0/38db1aa940fd4e11954185d5cc75bb89/artifacts
+end_time: 1741970045100
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 38db1aa940fd4e11954185d5cc75bb89
+run_name: delightful-jay-569
+run_uuid: 38db1aa940fd4e11954185d5cc75bb89
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741970002928
+status: 3
+tags: []
+user_id: harsha
