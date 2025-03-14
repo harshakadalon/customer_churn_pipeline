@@ -10,3 +10,178 @@
 2025-03-13 21:02:13,830 - INFO - ✅ Found latest dataset version: 2025-03-13
 2025-03-13 21:02:17,677 - INFO - ✅ Command succeeded: dvc add data/raw/parquet/2025-03-13
 2025-03-13 21:02:17,677 - INFO - 🚀 Dataset tracking completed (no commit/push).
+2025-03-13 21:35:39,229 - INFO - 🚀 Starting data tracking process...
+2025-03-13 21:35:39,231 - INFO - ✅ Latest dataset found: data/raw/parquet/2025-03-13
+2025-03-13 21:35:39,232 - INFO - 📂 Tracking latest dataset in data/raw/parquet/2025-03-13
+2025-03-13 21:35:41,953 - INFO - ✅ SUCCESS: dvc add data/raw/parquet/2025-03-13
+2025-03-13 21:35:41,962 - ERROR - ❌ ERROR: git add data/raw/parquet/2025-03-13.dvc
+fatal: pathspec 'data/raw/parquet/2025-03-13.dvc' did not match any files
+
+2025-03-13 21:35:41,971 - ERROR - ❌ ERROR: git commit -m 'Tracked new dataset: data/raw/parquet/2025-03-13'
+
+2025-03-13 21:35:41,983 - ERROR - ❌ ERROR: git ls-files --error-unmatch data/raw
+error: pathspec 'data/raw' did not match any file(s) known to git
+Did you forget to 'git add'?
+
+2025-03-13 21:35:41,989 - ERROR - ❌ ERROR: git ls-files --error-unmatch data/processed
+error: pathspec 'data/processed' did not match any file(s) known to git
+Did you forget to 'git add'?
+
+2025-03-13 21:35:44,198 - INFO - ✅ SUCCESS: dvc add data/raw
+2025-03-13 21:35:44,205 - INFO - ✅ SUCCESS: git add data/raw.dvc
+2025-03-13 21:35:44,221 - ERROR - ❌ ERROR: git commit -m 'Tracked data/raw with DVC'
+
+2025-03-13 21:35:46,538 - INFO - ✅ SUCCESS: dvc add data/processed
+2025-03-13 21:35:46,545 - INFO - ✅ SUCCESS: git add data/processed.dvc
+2025-03-13 21:35:46,556 - ERROR - ❌ ERROR: git commit -m 'Tracked data/processed with DVC'
+
+2025-03-13 21:35:48,877 - INFO - ✅ SUCCESS: dvc add data/features
+2025-03-13 21:35:48,884 - INFO - ✅ SUCCESS: git add data/features.dvc
+2025-03-13 21:35:48,897 - ERROR - ❌ ERROR: git commit -m 'Tracked data/features with DVC'
+
+2025-03-13 21:35:51,284 - INFO - ✅ SUCCESS: dvc add data/transformed
+2025-03-13 21:35:51,295 - INFO - ✅ SUCCESS: git add data/transformed.dvc
+2025-03-13 21:35:51,311 - ERROR - ❌ ERROR: git commit -m 'Tracked data/transformed with DVC'
+
+2025-03-13 21:35:52,316 - INFO - ✅ SUCCESS: git push origin main
+2025-03-13 21:35:51,771 - INFO - ✅ SUCCESS: dvc push
+2025-03-13 21:35:51,772 - INFO - 🚀 All dataset versions tracked & pushed successfully.
+2025-03-13 21:37:43,646 - INFO - 🚀 Starting data tracking process...
+2025-03-13 21:37:43,647 - INFO - ✅ Latest dataset found: data/raw/parquet/2025-03-13
+2025-03-13 21:37:43,647 - INFO - 📂 Tracking latest dataset in data/raw/parquet/2025-03-13
+2025-03-13 21:37:45,525 - INFO - ✅ SUCCESS: dvc add data/raw/parquet/2025-03-13
+2025-03-13 21:37:45,531 - ERROR - ❌ ERROR: git add data/raw/parquet/2025-03-13.dvc
+fatal: pathspec 'data/raw/parquet/2025-03-13.dvc' did not match any files
+
+2025-03-13 21:37:45,543 - ERROR - ❌ ERROR: git commit -m 'Tracked new dataset: data/raw/parquet/2025-03-13'
+
+2025-03-13 21:37:45,548 - ERROR - ❌ ERROR: git ls-files --error-unmatch data/raw
+error: pathspec 'data/raw' did not match any file(s) known to git
+Did you forget to 'git add'?
+
+2025-03-13 21:37:45,553 - ERROR - ❌ ERROR: git ls-files --error-unmatch data/processed
+error: pathspec 'data/processed' did not match any file(s) known to git
+Did you forget to 'git add'?
+
+2025-03-13 21:37:47,538 - INFO - ✅ SUCCESS: dvc add data/raw
+2025-03-13 21:37:47,551 - INFO - ✅ SUCCESS: git add data/raw.dvc
+2025-03-13 21:37:47,577 - INFO - ✅ SUCCESS: git commit -m 'Tracked data/raw with DVC'
+2025-03-13 21:37:49,687 - INFO - ✅ SUCCESS: dvc add data/processed
+2025-03-13 21:37:49,694 - INFO - ✅ SUCCESS: git add data/processed.dvc
+2025-03-13 21:37:49,705 - ERROR - ❌ ERROR: git commit -m 'Tracked data/processed with DVC'
+
+2025-03-13 21:37:48,790 - INFO - ✅ SUCCESS: dvc add data/features
+2025-03-13 21:37:48,801 - INFO - ✅ SUCCESS: git add data/features.dvc
+2025-03-13 21:37:48,826 - INFO - ✅ SUCCESS: git commit -m 'Tracked data/features with DVC'
+2025-03-13 21:37:52,287 - INFO - ✅ SUCCESS: dvc add data/transformed
+2025-03-13 21:37:52,345 - INFO - ✅ SUCCESS: git add data/transformed.dvc
+2025-03-13 21:37:52,408 - ERROR - ❌ ERROR: git commit -m 'Tracked data/transformed with DVC'
+
+2025-03-13 21:37:54,189 - INFO - ✅ SUCCESS: git push origin main
+2025-03-13 21:37:56,301 - INFO - ✅ SUCCESS: dvc push
+2025-03-13 21:37:56,302 - INFO - 🚀 All dataset versions tracked & pushed successfully.
+2025-03-13 21:42:53,589 - INFO - 🚀 Starting data tracking process...
+2025-03-13 21:42:53,590 - INFO - ✅ Latest dataset found: data/raw/parquet/2025-03-13
+2025-03-13 21:42:53,590 - INFO - 📂 Tracking latest dataset in data/raw/parquet/2025-03-13
+2025-03-13 21:42:57,714 - INFO - ✅ SUCCESS: dvc add data/raw/parquet/2025-03-13
+2025-03-13 21:42:57,721 - ERROR - ❌ ERROR: git add data/raw/parquet/2025-03-13.dvc
+fatal: pathspec 'data/raw/parquet/2025-03-13.dvc' did not match any files
+
+2025-03-13 21:42:57,738 - ERROR - ❌ ERROR: git commit -m 'Tracked new dataset: data/raw/parquet/2025-03-13'
+
+2025-03-13 21:42:57,756 - ERROR - ❌ ERROR: git ls-files --error-unmatch data/raw
+error: pathspec 'data/raw' did not match any file(s) known to git
+Did you forget to 'git add'?
+
+2025-03-13 21:42:57,763 - ERROR - ❌ ERROR: git ls-files --error-unmatch data/processed
+error: pathspec 'data/processed' did not match any file(s) known to git
+Did you forget to 'git add'?
+
+2025-03-13 21:43:01,835 - INFO - ✅ SUCCESS: dvc add data/raw
+2025-03-13 21:43:01,844 - INFO - ✅ SUCCESS: git add data/raw.dvc
+2025-03-13 21:43:01,862 - ERROR - ❌ ERROR: git commit -m 'Tracked data/raw with DVC'
+
+2025-03-13 21:43:06,080 - INFO - ✅ SUCCESS: dvc add data/processed
+2025-03-13 21:43:06,089 - INFO - ✅ SUCCESS: git add data/processed.dvc
+2025-03-13 21:43:06,131 - ERROR - ❌ ERROR: git commit -m 'Tracked data/processed with DVC'
+
+2025-03-13 21:43:09,992 - INFO - ✅ SUCCESS: dvc add data/features
+2025-03-13 21:43:10,001 - INFO - ✅ SUCCESS: git add data/features.dvc
+2025-03-13 21:43:10,025 - ERROR - ❌ ERROR: git commit -m 'Tracked data/features with DVC'
+
+2025-03-13 21:43:11,099 - INFO - ✅ SUCCESS: dvc add data/transformed
+2025-03-13 21:43:11,114 - INFO - ✅ SUCCESS: git add data/transformed.dvc
+2025-03-13 21:43:11,131 - ERROR - ❌ ERROR: git commit -m 'Tracked data/transformed with DVC'
+
+2025-03-13 21:43:12,125 - INFO - ✅ SUCCESS: git push origin main
+2025-03-13 21:43:15,715 - INFO - ✅ SUCCESS: dvc push
+2025-03-13 21:43:15,715 - INFO - 🚀 All dataset versions tracked & pushed successfully.
+2025-03-13 22:04:04,181 - INFO - 🚀 Starting data tracking process...
+2025-03-13 22:04:04,188 - INFO - ✅ Latest dataset found: data/raw/parquet/2025-03-13
+2025-03-13 22:04:04,188 - INFO - 📂 Tracking latest dataset in data/raw/parquet/2025-03-13
+2025-03-13 22:04:10,168 - INFO - ✅ SUCCESS: dvc add data/raw/parquet/2025-03-13
+2025-03-13 22:04:10,183 - ERROR - ❌ ERROR: git add data/raw/parquet/2025-03-13.dvc
+fatal: pathspec 'data/raw/parquet/2025-03-13.dvc' did not match any files
+
+2025-03-13 22:04:10,225 - ERROR - ❌ ERROR: git commit -m 'Tracked new dataset: data/raw/parquet/2025-03-13'
+
+2025-03-13 22:04:10,234 - ERROR - ❌ ERROR: git ls-files --error-unmatch data/raw
+error: pathspec 'data/raw' did not match any file(s) known to git
+Did you forget to 'git add'?
+
+2025-03-13 22:04:10,241 - ERROR - ❌ ERROR: git ls-files --error-unmatch data/processed
+error: pathspec 'data/processed' did not match any file(s) known to git
+Did you forget to 'git add'?
+
+2025-03-13 22:04:14,809 - INFO - ✅ SUCCESS: dvc add data/raw
+2025-03-13 22:04:11,903 - INFO - ✅ SUCCESS: git add data/raw.dvc
+2025-03-13 22:04:12,271 - INFO - ✅ SUCCESS: git commit -m 'Tracked data/raw with DVC'
+2025-03-13 22:04:15,771 - INFO - ✅ SUCCESS: dvc add data/processed
+2025-03-13 22:04:15,785 - INFO - ✅ SUCCESS: git add data/processed.dvc
+2025-03-13 22:04:15,814 - ERROR - ❌ ERROR: git commit -m 'Tracked data/processed with DVC'
+
+2025-03-13 22:04:19,789 - INFO - ✅ SUCCESS: dvc add data/features
+2025-03-13 22:04:19,801 - INFO - ✅ SUCCESS: git add data/features.dvc
+2025-03-13 22:04:19,856 - INFO - ✅ SUCCESS: git commit -m 'Tracked data/features with DVC'
+2025-03-13 22:04:23,757 - INFO - ✅ SUCCESS: dvc add data/transformed
+2025-03-13 22:04:23,772 - INFO - ✅ SUCCESS: git add data/transformed.dvc
+2025-03-13 22:04:23,786 - ERROR - ❌ ERROR: git commit -m 'Tracked data/transformed with DVC'
+
+2025-03-13 22:04:26,564 - INFO - ✅ SUCCESS: git push origin main
+2025-03-13 22:04:31,265 - INFO - ✅ SUCCESS: dvc push
+2025-03-13 22:04:31,265 - INFO - 🚀 All dataset versions tracked & pushed successfully.
+2025-03-13 22:08:37,547 - INFO - 🚀 Starting data tracking process...
+2025-03-13 22:08:37,547 - INFO - ✅ Latest dataset found: data/raw/parquet/2025-03-13
+2025-03-13 22:08:37,547 - INFO - 📂 Tracking latest dataset in data/raw/parquet/2025-03-13
+2025-03-13 22:08:40,566 - INFO - ✅ SUCCESS: dvc add data/raw/parquet/2025-03-13
+2025-03-13 22:08:40,574 - ERROR - ❌ ERROR: git add data/raw/parquet/2025-03-13.dvc
+fatal: pathspec 'data/raw/parquet/2025-03-13.dvc' did not match any files
+
+2025-03-13 22:08:40,593 - ERROR - ❌ ERROR: git commit -m 'Tracked new dataset: data/raw/parquet/2025-03-13'
+
+2025-03-13 22:08:40,607 - ERROR - ❌ ERROR: git ls-files --error-unmatch data/raw
+error: pathspec 'data/raw' did not match any file(s) known to git
+Did you forget to 'git add'?
+
+2025-03-13 22:08:40,620 - ERROR - ❌ ERROR: git ls-files --error-unmatch data/processed
+error: pathspec 'data/processed' did not match any file(s) known to git
+Did you forget to 'git add'?
+
+2025-03-13 22:08:48,662 - INFO - ✅ SUCCESS: dvc add data/raw
+2025-03-13 22:08:48,673 - INFO - ✅ SUCCESS: git add data/raw.dvc
+2025-03-13 22:08:48,691 - ERROR - ❌ ERROR: git commit -m 'Tracked data/raw with DVC'
+
+2025-03-13 22:08:53,309 - INFO - ✅ SUCCESS: dvc add data/processed
+2025-03-13 22:08:53,316 - INFO - ✅ SUCCESS: git add data/processed.dvc
+2025-03-13 22:08:53,335 - ERROR - ❌ ERROR: git commit -m 'Tracked data/processed with DVC'
+
+2025-03-13 22:09:00,355 - INFO - ✅ SUCCESS: dvc add data/features
+2025-03-13 22:09:00,386 - INFO - ✅ SUCCESS: git add data/features.dvc
+2025-03-13 22:09:00,459 - INFO - ✅ SUCCESS: git commit -m 'Tracked data/features with DVC'
+2025-03-13 22:09:07,577 - INFO - ✅ SUCCESS: dvc add data/transformed
+2025-03-13 22:09:07,603 - INFO - ✅ SUCCESS: git add data/transformed.dvc
+2025-03-13 22:09:07,630 - ERROR - ❌ ERROR: git commit -m 'Tracked data/transformed with DVC'
+
+2025-03-13 22:09:06,532 - INFO - ✅ SUCCESS: git push origin main
+2025-03-13 22:09:10,912 - INFO - ✅ SUCCESS: dvc push
+2025-03-13 22:09:10,912 - INFO - 🚀 All dataset versions tracked & pushed successfully.

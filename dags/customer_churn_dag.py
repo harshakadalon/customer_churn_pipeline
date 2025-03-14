@@ -69,5 +69,41 @@ with DAG(
         op_args=['/home/harsha/customer_churn_pipeline/scripts/data_preparation.py']
     )
 
+    # Task 6: Transform Data
+    transform_data_task = PythonOperator(
+        task_id='transform_data',
+        python_callable=run_script,
+        op_args=['/home/harsha/customer_churn_pipeline/scripts/data_transform.py']
+    )
+
+    # Task 7: Feature store creation
+    feature_store_creation_task = PythonOperator(
+        task_id='feature_store_creation',
+        python_callable=run_script,
+        op_args=['/home/harsha/customer_churn_pipeline/scripts/feature_store.py']
+    )
+
+    # Task 8: Feature store retreival
+    feature_retreival_storage_task = PythonOperator(
+        task_id='feature_retreival_storage',
+        python_callable=run_script,
+        op_args=['/home/harsha/customer_churn_pipeline/scripts/feature_retreival_storage.py']
+    )
+
+    # Task 9: Data Versioning
+    data_versioning_task = PythonOperator(
+        task_id='data_versioning',
+        python_callable=run_script,
+        op_args=['/home/harsha/customer_churn_pipeline/scripts/data_versioning.py']
+    )
+
+    # Task 10: Data Modeling
+    data_modeling_task = PythonOperator(
+        task_id='data_modeling',
+        python_callable=run_script,
+        op_args=['/home/harsha/customer_churn_pipeline/scripts/data_modeling.py']
+    )
+
+
     # Define Task Order (Dependency Flow)
-    ingest_task >> process_task >> store_parquet_task >> validate_task >> prepare_data_task
+    ingest_task >> process_task >> store_parquet_task >> validate_task >> prepare_data_task >> transform_data_task >> feature_store_creation_task >> feature_retreival_storage_task >> data_versioning_task >> data_modeling_task

@@ -2,6 +2,8 @@ import os
 import pandas as pd
 import logging
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 # ✅ Configure logging
 LOG_DIR = "logs"
@@ -82,7 +84,42 @@ def save_prepared_data(df):
     logging.info(f"📂 Prepared Data Saved: {prepared_file_path}")
     print(f"✅ Prepared Data Saved at: {prepared_file_path}")
 
+def generate_visualizations(df):
+    """Generates meaningful visualizations post data preparation."""
+    VISUAL_DIR = "visualizations"
+    os.makedirs(VISUAL_DIR, exist_ok=True)
+ 
+    # Distribution of Numerical Features
+    plt.figure(figsize=(10, 6))
+    sns.boxplot(data=df.select_dtypes(include=['int64', 'float64']))
+    plt.title("Boxplot of Numerical Features (Post Normalization)")
+    plt.xticks(rotation=45)
+    plt.savefig(os.path.join(VISUAL_DIR, "numerical_features_boxplot.png"))
+    plt.close()
+ 
+    # Churn Distribution
+    plt.figure(figsize=(6, 4))
+    sns.countplot(x=df['Churn'])
+    plt.title("Churn Distribution")
+    plt.savefig(os.path.join(VISUAL_DIR, "churn_distribution.png"))
+    plt.close()
+ 
+    # Correlation Heatmap
+    plt.figure(figsize=(10, 6))
+    sns.heatmap(df.corr(), annot=True, cmap="coolwarm", fmt=".2f")
+    plt.title("Feature Correlation Heatmap")
+    plt.savefig(os.path.join(VISUAL_DIR, "correlation_heatmap.png"))
+    plt.close()
+ 
+    print("✅ Visualizations generated and saved to", VISUAL_DIR)
+    logging.info("✅ Visualizations generated successfully.")
+
+
 if __name__ == "__main__":
     df = load_data()
     df_prepared = prepare_data(df)
     save_prepared_data(df_prepared)
+    generate_visualizations(df_prepared)
+
+
+

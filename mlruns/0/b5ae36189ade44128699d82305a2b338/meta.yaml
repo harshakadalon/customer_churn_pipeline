@@ -1,0 +1,15 @@
+artifact_uri: file:///home/harsha/customer_churn_pipeline/mlruns/0/b5ae36189ade44128699d82305a2b338/artifacts
+end_time: 1741902102491
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b5ae36189ade44128699d82305a2b338
+run_name: mercurial-lamb-352
+run_uuid: b5ae36189ade44128699d82305a2b338
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741902081666
+status: 3
+tags: []
+user_id: harsha

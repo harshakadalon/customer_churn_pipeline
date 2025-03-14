@@ -9,3 +9,17 @@
 2025-03-13 20:59:00,215 - INFO - ✅ Feature Store & Metadata Tables Created Successfully.
 2025-03-13 20:59:14,732 - INFO - ✅ Features successfully stored in SQL Server.
 2025-03-13 20:59:14,810 - INFO - ✅ Feature metadata stored successfully.
+2025-03-13 21:37:18,048 - INFO - ✅ Loading transformed data from: data/transformed/2025-03-13_transformed.parquet
+2025-03-13 21:37:18,192 - INFO - ✅ Feature Store & Metadata Tables Created Successfully.
+2025-03-13 21:37:25,378 - INFO - ✅ Features successfully stored in SQL Server.
+2025-03-13 21:37:25,440 - INFO - ✅ Feature metadata stored successfully.
+2025-03-13 21:56:26,837 - INFO - ✅ Loading transformed data from: data/transformed/2025-03-13_transformed.parquet
+2025-03-13 21:56:28,373 - INFO - ✅ Feature Store & Metadata Tables Created Successfully.
+2025-03-13 22:03:00,197 - INFO - ✅ Loading transformed data from: data/transformed/2025-03-13_transformed.parquet
+2025-03-13 22:03:00,501 - INFO - ✅ Feature Store & Metadata Tables Created Successfully.
+2025-03-13 22:03:14,324 - INFO - ✅ Features successfully stored in SQL Server.
+2025-03-13 22:03:14,420 - INFO - ✅ Feature metadata stored successfully.
+2025-03-13 22:07:34,141 - INFO - ✅ Loading transformed data from: data/transformed/2025-03-13_transformed.parquet
+2025-03-13 22:07:34,385 - INFO - ✅ Feature Store & Metadata Tables Created Successfully.
+2025-03-13 22:08:07,107 - INFO - ✅ Features successfully stored in SQL Server.
+2025-03-13 22:08:07,252 - INFO - ✅ Feature metadata stored successfully.

@@ -27,3 +27,20 @@
 2025-03-13 20:56:17,808 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-13/customer_churn_2025-03-13_20-53.parquet
 2025-03-13 20:56:18,048 - INFO - ✅ Data Preparation Completed Successfully.
 2025-03-13 20:56:18,128 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-13/customer_churn_prepared.parquet
+2025-03-13 21:36:47,203 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-13/customer_churn_prepared.parquet
+2025-03-13 21:36:47,320 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-13 21:36:47,356 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-13/customer_churn_prepared.parquet
+2025-03-13 21:54:32,870 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-13/customer_churn_prepared.parquet
+2025-03-13 21:54:33,635 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-13 21:54:33,708 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-13/customer_churn_prepared.parquet
+2025-03-13 22:01:46,748 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-13/customer_churn_prepared.parquet
+2025-03-13 22:01:47,063 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-13 22:01:47,132 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-13/customer_churn_prepared.parquet
+2025-03-13 22:06:32,695 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-13/customer_churn_prepared.parquet
+2025-03-13 22:06:32,867 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-13 22:06:32,911 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-13/customer_churn_prepared.parquet
+2025-03-13 22:31:36,522 - INFO - ✅ Loading latest Parquet file: data/raw/parquet/2025-03-13/customer_churn_prepared.parquet
+2025-03-13 22:31:35,879 - INFO - ✅ Data Preparation Completed Successfully.
+2025-03-13 22:31:36,381 - INFO - 📂 Prepared Data Saved: data/raw/parquet/2025-03-13/customer_churn_prepared.parquet
+2025-03-13 22:31:42,021 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-13 22:31:42,121 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
