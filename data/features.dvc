@@ -1,6 +1,6 @@
 outs:
-- md5: da3628b1b90f156c4b270c9739898dc6.dir
-  size: 4643042
-  nfiles: 5
+- md5: 13b2f2a8a65c69d7d54c0588b41c4754.dir
+  size: 319516
+  nfiles: 1
   hash: md5
   path: features
