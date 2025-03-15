@@ -1,0 +1,15 @@
+artifact_uri: file:///home/harsha/customer_churn_pipeline/mlruns/0/e147d2dfb461440da9b43a5131ca86ca/artifacts
+end_time: 1742017365252
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e147d2dfb461440da9b43a5131ca86ca
+run_name: unleashed-conch-313
+run_uuid: e147d2dfb461440da9b43a5131ca86ca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742017350429
+status: 3
+tags: []
+user_id: harsha
