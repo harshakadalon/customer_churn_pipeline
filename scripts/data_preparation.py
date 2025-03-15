@@ -49,9 +49,7 @@ def prepare_data(df):
     # ✅ Handling Missing Values Using Recommended Pandas Method
     df.fillna(df.mode().iloc[0], inplace=True)  # Use mode for categorical
     df.fillna(df.median(numeric_only=True), inplace=True)  # Use median for numerical
-    # ✅ Standardization (Z-score Scaling)
-    numerical_cols = df.select_dtypes(include=['int64', 'float64']).columns.tolist()
-    numerical_cols = [col for col in numerical_cols if col != "Churn"]  # Exclude target variable
+   
     # ✅ Label Encoding for Binary Categorical Columns
     binary_categorical_cols = ["gender", "Partner", "Dependents", "PhoneService"]
     label_encoder = LabelEncoder()
@@ -63,6 +61,11 @@ def prepare_data(df):
     existing_categorical_columns = [col for col in multi_category_cols if col in df.columns]
     if existing_categorical_columns:
         df = pd.get_dummies(df, columns=existing_categorical_columns, drop_first=True)
+
+     # ✅ Standardization (Z-score Scaling)
+    numerical_cols = df.select_dtypes(include=['int64', 'float64']).columns.tolist()
+    numerical_cols = [col for col in numerical_cols if col != "Churn"]  # Exclude target variable
+    
     # ✅ Normalization (Min-Max Scaling)
     if numerical_cols:
         minmax_scaler = MinMaxScaler()

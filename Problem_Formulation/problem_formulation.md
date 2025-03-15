@@ -6,9 +6,7 @@ Customer churn, characterized by the voluntary or involuntary departure of clien
 ## **Business Objectives**  
 1. Establish a clear understanding of customer churn and its business implications.
 2. Leverage machine learning to forecast customer churn and enable proactive decision-making.
-3. Visualize the customer loss and customer lifetime value.  
-4. Provide valuable insights to implement targeted retention strategies and reduce churn rates.
-5. Automate data pipeline for efficient data processing.  
+3. Automate data pipeline for efficient data processing.  
 
 ## **Key Data Sources and Attributes**  
 The pipeline will integrate customer data from multiple sources:
